@@ -1,0 +1,169 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.login{
+    height: 750px;
+    background: url(../img/reg_bg_min.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.login .read{
+    height: 50px;
+    font-size: 57px;
+    font-weight: 700px;
+    position: absolute;
+    color: #fff;
+    top: 300px;
+    left: 300px;
+}
+.login .change{
+    height: 50px;
+    font-size: 32px;
+    font-weight: 300px;
+    position: absolute;
+    color: #fff;
+    top: 380px;
+    left: 300px;
+}
+
+.login .choice{
+    position: absolute;
+    top: 105px;
+    height: 554px;
+    width: 480px;
+    left: 900px;
+    background:#fff;
+    border-radius: 20px;
+}
+.login .choice ul li{
+    list-style: none;
+   
+}
+.login .choice .tab{
+    height: 50px;
+}
+.login .choice .tab li{
+    float: left;
+    width: 240px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: "微软雅黑";
+}
+.login .choice .tab .active{
+    background: #E0ECF8;
+}
+.login .choice .tab1 dl{
+    position: absolute;
+    left: 30px;
+    width: 450px;
+    height: 50px;
+}
+.login .choice .tab1{
+    background: #E0ECF8;
+}
+.login .choice .tab1,.tab2{
+    border-radius: 0px 0px 20px 20px;
+    height: 504px;
+}
+.login .choice .tab1 dl dt,dd{
+   float: left;
+   height: 50px;
+   line-height: 50px;
+
+}
+.login .choice .tab1 dl dd input{
+    height: 40px;
+    width: 350px;
+    margin-left: 20px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: "宋体";
+    padding-left: 10px;
+}
+.login .choice .tab1 dl dd input:focus{
+    outline: none;
+    border: 1px solid #2e58ff;
+}
+.login .choice .tab1 dl dt{
+    width: 48px;
+    text-align: right;
+}
+.login .choice .tab1 .dl1{
+    top: 100px;
+
+}
+.login .choice .tab1 .dl2{
+    top: 200px;
+}
+.login .choice .tab1 .dl3{
+    top: 300px;
+}
+.login .choice .tab1 .dl4{
+    top: 400px;
+}
+
+.login .choice .tab1 .dl4 dd{
+    width: 380px;
+    height: 50px;
+}
+.login .choice .tab1 .dl4 dd input{
+    width: 150px;
+    height: 50px;
+}
+.login .choice .tab1 .dl4 dd img{
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+}
+
+.login .choice .tab1 dl dd,dt{
+   float: left;
+}
+
+/* 设置注册界面 */
+.login .choice .tab2 dl{
+    position: absolute;
+    left: 30px;
+    width: 450px;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+}
+.login .choice .tab2 .dl1{
+    top: 100px;
+}
+.login .choice .tab2 .dl2{
+    top: 200px;
+}
+.login .choice .tab2 .dl3{
+    top: 300px;
+}
+.login .choice .tab2 .dl4{
+    top: 400px;
+}
+.login .choice .tab2 dl dd input{
+    height: 40px;
+    width: 330px;
+    margin-left: 20px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: "宋体";
+    padding-left: 10px;
+}
+.login .choice .tab2 dl dd input:focus{
+    outline: none;
+    border: 1px solid #2e58ff;
+}
+.login .choice .tab2 dl dt{
+    width: 64px;
+    text-align: right;
+}

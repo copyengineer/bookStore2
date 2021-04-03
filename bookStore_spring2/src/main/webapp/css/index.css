@@ -1,0 +1,352 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: PingFangSC-Regular,HelveticaNeue-Light,'Helvetica Neue Light','Microsoft YaHei',sans-serif,Simsun;
+}
+
+/* 头部样式 */
+.main .head{
+    padding: 30px 0 10px;
+
+}
+
+.main .head .head_top{
+    padding-bottom: 36px;
+    font-size: 12px;
+    height: 32px;
+}
+
+.main .head .head_top img{
+    display: block;
+    float: left;
+    width: 167px;
+    height: 32px;
+    
+}
+
+.main .head .head_top input:focus{
+    outline: none;
+    border: 1px solid red;
+}
+
+.main .head .head_top .search{
+    display: block;
+    float: left;
+    margin-left: 231px;
+    width: 338px;
+    height: 30px;
+    border: 1px solid #e0e0e0;
+    text-indent:8px;
+}
+
+.main .head .head_top .search_btn{
+    display: block;
+    float: left;
+    width: 40px;
+    height: 32px;
+    cursor: pointer;
+    outline: 0;
+    border: 1px solid #e0e0e0;
+    background: url(../img/search.png) no-repeat center center #d32f2f;
+    margin: 0px;
+}
+
+.main .head .head_top .login_register_recharge{
+    float: right;
+    display: block;
+    
+}
+
+.main .head .head_top .login_register_recharge a{
+    text-decoration: none;
+    display: block;
+    float: right;
+    margin-top: 12px;
+}
+
+.main .head .head_top .login_register_recharge .recharge{
+    background: url(../img/pay.png) no-repeat left center;
+    padding-left: 18px;
+    width: 26px;
+}
+
+.main .head .head_top .login_register_recharge .register,.login{
+    width: 26px;
+    height: 16px;
+    padding-left: 18px;
+}
+
+/* 小说分类部分样式 */
+
+.main .type{
+    background: #f7f7f7;
+    border: 1px solid #e6e6e6;
+    padding: 12px 20px;
+    overflow: hidden;
+    font-size: 13px;
+    height: 290px;
+}
+
+.main .type .content a{
+    cursor: pointer;
+}
+
+.main .type .content .sex_type{
+    padding-bottom: 2px;
+    height: 30px;
+}
+
+.main .type .content .sex_type .active{
+    color: #333;
+    font-weight: 700;
+}
+
+.main .type .content .kind{
+    padding:3px 0px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.main .type .content .kind .active2{
+    background: #d32f2f;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.main .type .content .sex_type a{
+    width: 60px;
+    height: 30px;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 15px;
+    color: #999;
+}
+
+.main .type .content .sex_type span{
+    display: block;
+    float: left;
+    margin: 0px 10px;
+    line-height: 30px;
+    height: 30px;
+    color: #e6e6e6;
+}
+
+.main .type .content .type_name{
+    float: left;
+    width: 88px;
+    height: 25px;
+    color: #999;
+    padding-top: 5px;
+}
+.main .type .content a{
+    text-decoration: none;
+    color: black;
+}
+
+.main .type .content .book_type a{
+    display: inline-block;
+    width: 52px;
+    text-align: center;
+    margin: 5px 6px 5px 7px;
+}
+
+.main .type .content .write_schedule a{
+    display: inline-block;
+    width: 39px;
+    text-align: center;
+    margin: 5px 6px 5px 7px;
+}
+
+.main .type .content .word_num a{
+    display: inline-block;
+    width: 78px;
+    text-align: center;
+    margin: 5px 6px 5px 7px;
+}
+
+.main .type .content .update_time a{
+    display: inline-block;
+    width: 39px;
+    text-align: center;
+    margin: 5px 6px 5px 7px;
+}
+
+.main .type .content .first_word a{
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    margin: 5px 1px 5px 7px;
+}
+
+.main .type .content .other a{
+    display: inline-block;
+    width: 39px;
+    text-align: center;
+    margin: 5px 6px 5px 7px;
+}
+
+.main .type .content .selected h6{
+    display: inline-block;
+    width: 800px;
+    height: 30px;
+    margin: 5px 6px 0px 7px;
+    line-height: 35px;
+}
+
+.main .type .content .selected span{
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    margin: 5px 6px 0px 7px;
+    line-height: 35px;
+    background: #d32f2f;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    line-height: 30px
+}
+
+.main .type .content .selected span a{
+    background: url(../img/closeselect.png);
+    width: 10px;
+    height:10px;
+    display: inline-block;
+}
+
+/* 图书展示区 */
+
+.main .book{
+    border: 1px solid #e6e6e6;
+    padding: 0 20px 20px;
+    font-size: 12px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.main .book .one_book{
+    width: 558px;
+    height: 135px;
+    padding: 20px 0;
+    float: left;
+}
+
+.main .book .one_book .preview_img,.book_info{
+    float: left;
+}
+
+.main .book .one_book .preview_img{
+    width: 100px;
+    height: 132px;
+    margin-right: 20px; 
+}
+
+.main .book .one_book .preview_img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.main .book .one_book .book_info .book_name{
+    font-size: 20px;
+    color: #333;
+    line-height: 26px; 
+}
+
+.main .book .one_book .book_info .book_name a{
+    font-weight: 400;
+    font-style: normal; 
+    width: 438px;
+    height: 26px;
+    text-decoration: none;
+    color: black;
+}
+
+.main .book .one_book .book_info .book_name a:hover{
+    color: red;
+}
+
+.main .book .one_book .book_info .book_link{
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #e6e6e6;
+    margin: 10px 0 15px; 
+    width: 438px;
+    color: black;
+}
+
+.main .book .one_book .book_info .book_link a{
+    text-decoration: none;
+    
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.main .book .one_book .book_info .book_desc{
+    height: 40px;
+    width: 438px;
+    overflow: hidden;
+    font-size: 13px;
+    color: #666;
+    line-height: 20px;
+    max-height: 40px;
+}
+
+.main .book .one_book .book_info .latest{
+    margin-top: 10px;
+}
+
+.main .book .page_choice{
+    padding: 20px 0px;
+    margin-left: 340px;
+    height: 35px;
+}
+.main .book .page_choice form{
+   display: inline-block;
+}
+.main .book .page_choice a{
+    border-radius: 1px;
+    width: 45px;
+    height: 33px;
+    display:inline-block;
+   	margin-left:8px;
+   	text-align:center;
+    cursor:pointer;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 33px;
+   	color:#999;
+    border: 1px solid #ccc;
+}
+.main .book .page_choice input{
+    border-radius: 1px;
+    width: 45px;
+    height: 33px;
+    display:inline-block;
+   	margin-left:8px;
+   	text-align:center;
+    cursor:pointer;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 33px;
+   	color:#999;
+    border: 1px solid #ccc;
+}
+.main .book .page_choice a:hover {
+	background: #d32f2f;
+color: #fff;
+border: 1px solid #d32f2f;
+}
